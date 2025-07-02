@@ -91,7 +91,7 @@ qrtools-func/
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
-     -d '{"text": "Hello from Curl!"}' \
+     -d '{"text": "Hello, World!"}' \
     https://your-deployment-url/ > qrcode_curl.png
 ```
 
