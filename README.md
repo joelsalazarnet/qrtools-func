@@ -191,6 +191,12 @@ The service includes comprehensive error handling:
 
 For issues or questions, please open an issue in the project repository.
 
+## Code Documentation
+
+For beginners who want to understand the Python code in detail, check out our comprehensive code explanation:
+
+**[📖 Python Code Explanation Guide](./code_overview.md)** - A beginner-friendly, line-by-line breakdown of all the Python code in this project, including explanations of key concepts, how everything works together, and what you'll learn.
+
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
