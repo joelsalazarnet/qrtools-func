@@ -90,15 +90,15 @@ qrtools-func/
 ### cURL
 
 ```bash
-curl -X POST https://your-deployment-url/qrgen \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Hello, World!"}'
+curl -X POST -H "Content-Type: application/json" \
+     -d '{"text": "Hello from Curl!"}' \
+    https://your-deployment-url/ > qrcode_curl.png
 ```
 
 ### JavaScript (fetch)
 
 ```javascript
-fetch('https://your-deployment-url/qrgen', {
+fetch('https://your-deployment-url/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -126,7 +126,7 @@ import base64
 from PIL import Image
 import io
 
-response = requests.post('https://your-deployment-url/qrgen', 
+response = requests.post('https://your-deployment-url/', 
                         json={'text': 'Hello, World!'})
 
 if response.status_code == 200:
